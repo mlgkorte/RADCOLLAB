@@ -1,0 +1,89 @@
+# RADCOLLAB · eRad UID — Adatkezelési tájékoztató / Privacy policy
+
+2026-09-17 · Extension 1.0.3
+
+
+## Magyar
+
+
+### A tájékoztató hatálya és kapcsolattartó
+
+Ez a tájékoztató a RADCOLLAB · eRad UID böngészőbővítmény 1.0.3 verziójának adatkezelését ismerteti. Kiadó és adatvédelmi kapcsolattartó: Dr. Katona Marcell; e-mail: martonur96@gmail.com. A tájékoztató a bővítményre vonatkozik, nem helyettesíti az eRad, az egészségügyi intézmény vagy a RADCOLLAB webalkalmazás saját adatkezelési tájékoztatóját.
+
+
+### Milyen adatokat és milyen célból dolgoz fel?
+
+A bővítmény célja, hogy az arra jogosult eRad-felhasználó a megfelelő beteg megfelelő vizsgálatának StudyInstanceUID azonosítóját kiválaszthassa, ellenőrizhesse és kimásolhassa. Az eRad oldaláról helyben olvassa a beteg nevét, betegazonosítóját (amely TAJ szám is lehet), a vizsgálat dátumát, modalitását, megnevezését, UID-ját és a sorok vagy kártyák kijelölési állapotát. A munkalistán betöltött több beteg adatait is feldolgozhatja a betegválasztó feltöltéséhez. Az aktív lap webcímét a támogatott eRad-oldal azonosítására és az elnavigálás ellenőrzésére használja. A vizsgálati azonosító önmagában sem tekintendő feltétlenül anonim adatnak.
+
+
+### Hogyan történik a feldolgozás?
+
+A feldolgozás a bővítmény megnyitásakor kezdődik a felhasználó böngészőjében, a https://nyhcwl.eradpacs.hu oldalon és annak hozzáférhető, azonos eredetű kereteiben. Betegválasztáskor a bővítmény az eRad saját kártyanyitó vezérlőjét aktiválja; a vizsgálatokat az eRad a felhasználó meglévő munkamenetében tölti be. Az így keletkező eRad-forgalomra és naplókra az eRad és az intézmény szabályai vonatkoznak. A bővítmény nem olvas bejelentkezési jelszót, hitelesítési sütit vagy tokent, és nem biztosít új hozzáférési jogosultságot.
+
+
+### Tárolás és vágólap
+
+A feldolgozott beteg- és vizsgálati adatok a nyitott bővítményablak átmeneti memóriájában maradnak, és visszalépéskor is rendelkezésre állnak. A bővítmény nem menti őket saját adatbázisba, fájlba, localStorage-ba vagy böngészőszinkronizálásba; az ablak bezárásával megszűnik a bővítmény ezen átmeneti állapota. Az eRad saját oldalán betöltött adatok ettől nem törlődnek. Külön jóváhagyás és másolási gomb megnyomása után kizárólag az UID vagy az UID-t tartalmazó eRad-link kerül a rendszer vágólapjára. A bővítmény nem olvassa és nem törli a vágólapot. A vágólap tartalma, előzménye vagy szinkronizált másolata az operációs rendszer és a felhasználó beállításaitól függően tovább megmaradhat.
+
+
+### Adattovábbítás és kizárt felhasználások
+
+A bővítmény nem küld betegadatot a kiadónak, analitikai szolgáltatónak vagy reklámszolgáltatónak, és nem továbbít adatot automatikusan a RADCOLLAB alkalmazásba. A kimásolt adat további beillesztéséről vagy megosztásáról a felhasználó dönt. Nincs beépített analitika, reklám, követőkód, kattintásnaplózás vagy háttérben futó böngészésfigyelés. A bővítmény nem olvassa a böngészési előzménylistát; az aktuális lap címének ellenőrzése a fent leírt működésre korlátozódik. Az adatokat nem értékesítjük, nem használjuk célzott hirdetéshez, a bővítmény céljától eltérő profilalkotáshoz, hitelképesség-vizsgálathoz vagy hitelezéshez. A bővítmény által elért adatok felhasználása megfelel a Chrome Web Store User Data Policy szabályainak, beleértve a Limited Use korlátozásokat.
+
+
+### Jogosultságok és kód
+
+Az activeTab ideiglenes hozzáférést ad a felhasználó által megnyitott aktív laphoz. A scripting a csomagban lévő kód futtatásához kell az eRad sorainak és kártyáinak olvasására, valamint a kiválasztott beteg kártyáinak megnyitására. A clipboardWrite kizárólag a felhasználó által kért UID/link másolását szolgálja. A bővítmény nem tölt le és nem futtat távoli bővítménykódot.
+
+
+### Felhasználói lehetőségek és megkeresések
+
+A helyi feldolgozás a bővítményablak bezárásával leállítható; a bővítmény a böngésző beállításaiban letiltható vagy eltávolítható. A kimásolt adatok és a vágólapelőzmények külön törölhetők az operációs rendszerben. A kiadó nem rendelkezik a bővítmény által feldolgozott betegek szerveroldali adatbázisával. Az eRadban tárolt betegadatokhoz kapcsolódó hozzáférési, helyesbítési, törlési vagy egyéb érintetti kérelmekkel az illetékes egészségügyi intézményhez kell fordulni. A bővítmény adatkezelésével kapcsolatban a fenti e-mail-címen lehet érdeklődni. Támogatási levélben ne küldjön betegnevet, TAJ számot, leletet vagy azonosítható képernyőképet. Az önként elküldött levél feladócíme és tartalma külön, az e-mail-szolgáltatásban kerül feldolgozásra a megkeresés megválaszolásához; nem a bővítmény gyűjti.
+
+
+### Külső szolgáltatások és változások
+
+A böngésző, az operációs rendszer, az eRad és a bővítményáruház saját működésére és adatkezelésére a megfelelő szolgáltatók tájékoztatói vonatkoznak. Ez a tájékoztatóoldal nem tartalmaz analitikát, sütit beállító kódot, űrlapot vagy külső erőforrást; a tárhelyszolgáltató az oldal kiszolgálásához technikai adatokat, például IP-címet és kéréseket kezelhet saját szabályai szerint. A bővítmény adatkezelésének változásakor ezt az oldalt és a közzétételi nyilatkozatokat frissítjük.
+
+
+## English
+
+
+### Scope and contact
+
+This policy describes data handling by version 1.0.3 of the RADCOLLAB · eRad UID browser extension. Publisher and privacy contact: Dr. Katona Marcell; email: martonur96@gmail.com. It covers the extension and does not replace the privacy notices of eRad, the healthcare institution or the RADCOLLAB web application.
+
+
+### Data processed and purpose
+
+The extension helps authorized eRad users select, verify and copy the StudyInstanceUID of the correct examination for the correct patient. It locally reads patient names, patient identifiers (which may include Hungarian TAJ numbers), examination dates, modalities, descriptions, UIDs and row or card selection states from eRad. It may process multiple patients already loaded in the worklist to populate the patient selector. It checks the active tab URL to identify the supported eRad site and detect navigation. A study UID alone should not necessarily be considered anonymous information.
+
+
+### How processing works
+
+Processing starts when the user opens the extension, within the browser, on https://nyhcwl.eradpacs.hu and accessible same-origin frames. Selecting a patient activates that patient’s existing eRad study-card control. eRad loads the examinations using the user’s existing session. Resulting eRad network requests and logs are subject to eRad and institutional policies. The extension does not read login passwords, authentication cookies or tokens and does not grant additional access rights.
+
+
+### Retention and clipboard
+
+Patient and examination data remain in the open popup’s temporary memory, including when returning to the selection screen. The extension does not save them to its own database, files, localStorage or browser synchronization. Closing the popup ends this temporary extension state; it does not erase data already loaded in the eRad page. After confirmation and an explicit copy-button click, only the UID or an eRad link containing the UID is written to the system clipboard. The extension neither reads nor clears the clipboard. Clipboard contents, history or synchronized copies may persist according to the operating system and user settings.
+
+
+### Sharing and restricted uses
+
+The extension does not send patient data to the publisher, analytics providers or advertisers, and does not automatically submit data to RADCOLLAB. The user decides where to paste or share copied information. It contains no analytics, advertising, tracking code, click logging or background browsing monitoring. It does not read the browser history list; active-tab URL checks are limited to the functionality described above. Data is not sold or used for targeted advertising, unrelated profiling, creditworthiness assessment or lending. The use of data accessed by the extension complies with the Chrome Web Store User Data Policy, including the Limited Use restrictions.
+
+
+### Permissions and code
+
+activeTab provides temporary access to the active tab when the user opens the extension. scripting runs packaged code to read eRad rows and cards and open the selected patient’s study cards. clipboardWrite supports only user-requested copying of the UID or viewer link. The extension does not download or execute remotely hosted extension code.
+
+
+### User controls and enquiries
+
+Close the popup to stop local processing, or disable or uninstall the extension in browser settings. Copied information and clipboard history can be cleared separately through the operating system. The publisher has no server-side database of patients processed by the extension. Requests to access, correct, delete or otherwise exercise rights concerning patient records held in eRad should be directed to the responsible healthcare institution. For extension privacy enquiries, use the email address above. Do not include patient names, TAJ numbers, medical reports or identifiable screenshots in support emails. The sender address and contents of a voluntarily sent email are processed separately through the email service to respond to the enquiry; they are not collected by the extension.
+
+
+### Other services and changes
+
+The browser, operating system, eRad and extension store operate under their respective providers’ privacy notices. This policy page contains no analytics, cookie-setting code, forms or external resources. Its hosting provider may process technical information such as IP addresses and requests to serve the page under its own policies. If the extension’s data handling changes, this page and the store disclosures will be updated.
