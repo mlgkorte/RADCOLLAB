@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>RADCOLLAB · eRad UID</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <span class="brand">RADCOLLAB</span>
+      <h1>Vizsgálatazonosító átvétele</h1>
+    </header>
+    <main>
+      <p id="status" role="status">Az eRad vizsgálatainak keresése…</p>
+      <p id="error" role="alert" hidden></p>
+      <section id="selected" hidden>
+        <h2>A kijelölt vizsgálat UID-ját szeretné kinyerni?</h2>
+        <dl id="selected-summary"></dl>
+        <button id="use-selected" class="primary">
+          Igen, ezt a vizsgálatot</button
+        ><button id="choose-other">
+          Másik beteget vagy vizsgálatot választok
+        </button>
+      </section>
+      <section id="chooser" hidden>
+        <h2>Kinek, melyik vizsgálatából?</h2>
+        <label
+          >Beteg<select id="patient" name="patient">
+            <option value="">Válasszon beteget</option>
+          </select></label
+        ><label
+          >Vizsgálat<select id="study" name="study" disabled>
+            <option value="">Előbb válasszon beteget</option>
+          </select></label
+        >
+        <button id="review" class="primary" disabled>
+          Kiválasztott vizsgálat ellenőrzése
+        </button>
+      </section>
+      <section id="confirm" hidden>
+        <h2>Ennek a vizsgálatnak az UID-ját kéri?</h2>
+        <dl id="confirm-summary"></dl>
+        <button id="extract" class="primary">Igen, UID kinyerése</button
+        ><button id="back">Vissza a választáshoz</button>
+      </section>
+      <section id="result" hidden>
+        <h2>A jóváhagyott vizsgálat UID-ja</h2>
+        <dl id="result-summary"></dl>
+        <label
+          >PACS StudyInstanceUID<textarea
+            id="uid"
+            name="uid"
+            rows="3"
+            readonly
+            spellcheck="false"
+          ></textarea></label
+        ><button id="copy" class="primary">UID másolása</button
+        ><button id="copy-link">eRad link másolása</button>
+        <p class="muted">
+          Illessze be a RADCOLLAB PACS StudyInstanceUID mezőjébe.
+        </p>
+      </section>
+      <button id="refresh">Lista frissítése</button>
+      <p class="muted footnote">
+        Csak az oldalon betöltött vizsgálatok láthatók. A név és a
+        betegazonosító kizárólag ebben az ablakban jelenik meg; a vágólapra csak
+        a jóváhagyott UID vagy eRad-link kerül.
+      </p>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
